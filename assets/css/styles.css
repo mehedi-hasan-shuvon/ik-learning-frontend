@@ -3,6 +3,8 @@
 
 body{
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  
 }
 
 
@@ -506,7 +508,9 @@ body{
 
 
 #section-1{
-  background-color:  #4FBDBA;
+  background-color: #4FBDBA;
+  width: 100%;
+  /* height:90vh; */
 }
 .section-1-header{
   color: white;
@@ -557,3 +561,64 @@ body{
 .header-class{
   margin-bottom:50px;
 }
+
+.section-2{
+  background-color:#AEFEFF;
+}
+.topic{
+   
+  padding: 2%;
+  text-align: center;
+  color:white;
+  margin: 1%;
+  margin-top: 2%;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  /* height: 90px !important;
+  width: 17% !important; */
+ 
+  
+}
+
+#section-2-header{
+  color:white;
+  padding-top: 50px;
+  font-weight: 700;
+}
+
+#topic-1{
+  background-color: #D885A3;
+}
+#topic-2{
+  background-color: #7897AB;
+}
+#topic-3{
+  background-color: #FDCEB9;
+}
+#topic-4{
+  background-color: #655D8A;
+}
+#topic-5{
+  background-color: #CAF7E3;
+}
+
+.experiment{
+  color: white;
+  background:rgba(0,0,0,0.8);
+  top: -100%;
+  left: 0;
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  align-items:center ;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.topic:hover .experiment{
+  top:0;
+}
+

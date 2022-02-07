@@ -1,0 +1,559 @@
+/* common things */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+
+#index-navbar-brand {
+  background: url("../../assets/img/logo.jpg") center / contain no-repeat;
+  width: 182px;
+  height: 42px;
+  margin-left: 34px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  margin-left: 2%;
+  margin-right: 10%;
+  height: 15px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider-container {
+  width: 95%;
+}
+
+.navbar-auth-button {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+}
+
+#signup-button {
+  margin-right: 7px;
+}
+
+.nav-link.active {
+  color: #269359 !important;
+}
+
+.nav-dropdown-item {
+  margin: auto auto;
+}
+
+.dropdown-toggle-link {
+  text-decoration: none;
+  color: rgba(0,0,0,.55);
+}
+
+.dropdown-toggle-link:hover {
+  color: rgba(0,0,0,0.7);
+}
+
+@media (min-width: 992px) {
+  .nav-item-box {
+    margin: 0px 4px;
+  }
+}
+
+.font-nunito {
+  font-family: Nunito, sans-serif;
+}
+
+#homepage-search-button {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 0px 7px 7px 0px;
+  height: 35px;
+}
+
+#homepage-left-banner {
+  height: 90vh;
+  
+}
+
+#homepage-search-input {
+  padding: 0px;
+  height: 35px;
+  border-radius: 7px 0px 0px 7px;
+  border: none;
+  background: #f2f2f2;
+  width: 50%;
+}
+
+
+
+.view-detalis-button {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  text-align: center;
+  font-size: 14px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+}
+
+#homepage-right-banner {
+  height: 90vh;
+  background: url("../../assets/img/bg.png") center / cover no-repeat;
+}
+
+#top-rated-institution-container {
+  margin-top: 3rem;
+}
+
+.review-star {
+  margin: 0px 6px;
+  color: #269359;
+}
+
+.course-card-column {
+  margin-top: 1rem;
+}
+
+.view-all-button {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.view-all-button-row {
+  margin-top: 2rem;
+}
+
+#top-rated-course-container {
+  margin-top: 3rem;
+}
+
+#about-us-image {
+  border-radius: 10% 50% 30% 40%;
+}
+
+#about-us-container {
+}
+
+#about-us-row {
+  height: 80vh;
+  
+}
+
+#contact-us-button {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  text-align: center;
+  font-size: 16px;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+}
+
+#drop-us-message-row {
+  margin-bottom: 2rem;
+}
+
+#drop-us-message-row-2 {
+  margin-bottom: 9rem;
+}
+
+#drop-us-message-boi {
+}
+
+.front-page-text-input {
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #c9c9c9;
+  width: 75%;
+  height: 36px;
+  margin: 10px 0px;
+  padding-left: 8px;
+}
+
+.front-page-text-area {
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #c9c9c9;
+  width: 75%;
+  height: 100px;
+  margin: 10px 0px;
+  resize: none;
+  padding-left: 8px;
+}
+
+#navbar-ik-learning {
+  
+  background: #FFFFFF;
+  height: 10vh;
+  
+}
+
+
+.category-badge {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  color: #FFFFFF;
+}
+
+.green-text {
+  color: #269359;
+}
+
+.thr-px-fn {
+  font-size: 13px;
+}
+
+.sixt-px-fn {
+  font-size: 16px;
+}
+
+.institution-card-column {
+  margin-top: 1rem;
+}
+
+.institution-course-hr {
+  color: #269359;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #0B6E4F;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.institution-course-keyword-row {
+  margin-top: 12px;
+}
+
+.red-text {
+  color: red;
+}
+
+.discounted-price {
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.course-institution-price-button-col {
+  border-left: 1px solid #269359;
+}
+
+.course-breadcrum-icon {
+  margin: 0px 10px;
+}
+
+.breadcrumb-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#course-breadcrum-row {
+  margin-bottom: 1rem;
+}
+
+.course-rating-text {
+  color: #F7BB56;
+  font-size: 14px;
+}
+
+.course-instructor-image {
+  max-width: 36px;
+  height: 36px;
+  width: 36px;
+}
+
+#course-course-instructor-row {
+  margin-top: 1rem;
+}
+
+#course-student-enrolled-row {
+  margin-top: 1rem;
+}
+
+.course-enrolled-count {
+  font-weight: bold;
+  margin-right: 7px;
+}
+
+#course-enroll-button-row {
+  margin: 2rem 0rem;
+}
+
+#course-offered-by-text {
+  font-size: 14px;
+}
+
+#course-enroll-button {
+  padding: 1rem 2rem;
+}
+
+.instructor-name-text {
+  font-size: 14px;
+}
+
+.course-rating-count-text {
+  font-size: 14px;
+}
+
+.course-description-text {
+  font-size: 14px;
+}
+
+#course-enroll-button-col {
+  padding: 0px;
+}
+
+#below-banner-row {
+  margin-top: 2rem;
+}
+
+.wwyl-icon {
+  margin-right: 10px;
+  color: #269359;
+}
+
+#what-will-you-learn-row {
+  padding: 16px 24px 0px;
+}
+
+.skill-col {
+  background-color: #EBECED;
+  border-radius: 1.875rem;
+  height: 1.875rem;
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  margin: 0px 8px 8px 0px;
+}
+
+.checkout-text-input {
+  border-radius: 7px;
+  border-width: 0px;
+  width: 100%;
+  background: #ededed;
+  height: 36px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cart-original-price {
+  font-size: 15px;
+  color: #6A6F74;
+}
+
+.cart-total-price-text {
+  font-size: 36px;
+}
+
+#course-in-cart-count-row {
+  margin: 10px 0px;
+}
+
+.review-star-cart {
+  margin: 0px 1px;
+}
+
+.cart-course-each-price-instructor-text {
+  color: #6A6F73;
+  font-size: 14px;
+}
+
+.before-discount-price {
+  color: #6A6F73;
+}
+
+.cart-course-each-price-text {
+  font-size: 15px;
+}
+
+.course-rating-by-students-ago {
+  font-size: 14px;
+  color: #6A6F73;
+}
+
+#course-student-feedback-avatar {
+}
+
+.course-feature-row {
+  margin: 0px 0px 24px;
+  padding: 8px 0px 0px;
+}
+
+#student-feedback-heading {
+  font-size: 24px;
+}
+
+#course-feature-col {
+  padding: 0px 12px;
+}
+
+.course-feature-text {
+  font-size: 14px;
+}
+
+.course-feature-heading {
+  font-size: 20px;
+}
+
+#skills-ypu-will-gain-row {
+  padding: 16px 24px 24px;
+}
+
+#course-institution-logo {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#home-banner-img {
+  margin-left: 100px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #073b3a;
+  cursor: pointer;
+}
+
+.category-filter-text {
+  margin-left: 10px;
+}
+
+.category-filter-checkbox {
+  height: 15px;
+  width: 15px;
+}
+
+.cart-item-count-badge {
+  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.btn-primary:focus.delete-button, .btn-primary:active.delete-button, .btn-primary:active:focus.delete-button, .btn-primary:hover.delete-button, .delete-button {
+  background: white;
+  color: black;
+  border: none;
+}
+
+.btn-primary:active:focus.delete-button {
+  box-shadow: 0 0 0 .25rem rgba(38,147,89,0.5) !important;
+}
+
+.red-text {
+  color: red;
+}
+
+.course-review-textarea {
+  border-radius: 4px;
+  border: 1px solid #e6e8eb;
+  font-size: 16px;
+  resize: none;
+  height: 80px;
+  background: rgb(245,246,247);
+  border-style: none;
+  padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* added by MHS */
+
+.button-width{
+  width: 100%;
+}
+
+.modal-color{
+ color:#2A9C5B
+}
+
+.instructor-image{
+  height:10%;
+}
+
+
+#section-1{
+  background-color:  #4FBDBA;
+}
+.section-1-header{
+  color: white;
+  font-size: 280%;
+}
+.section-1-text{
+  color: white;
+  font-size: 120%;
+}
+
+.h1-effect{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: text 4s infinite alternate;
+  border-right: 3px solid white;
+
+}
+@keyframes text {
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 17ch;
+  }
+  
+}
+
+#homepage-search-input{
+  width: 100%;
+}
+
+.button-color{
+  color: #073b3a;
+}
+
+
+.slider-img{
+  width:auto;
+  height:1%;
+}
+
+.custom{
+ text-align: center;  
+
+
+}
+
+.header-class{
+  margin-bottom:50px;
+}

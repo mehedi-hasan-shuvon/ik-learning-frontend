@@ -677,7 +677,7 @@ body{
   top:0;
   left:0;
   width: 100%;
-  height: 105%;
+  height: 110%;
   position: absolute;
   padding: 10px 10px;
   box-sizing:border-box;
@@ -716,4 +716,71 @@ body{
 .btn-clr{
   color: black !important;
   background-color: white !important;
+}
+
+.section-3{
+  background-color: #4FBDBA;
+}
+
+
+.section-3-card{
+  height:450px;
+  width:340px;
+  background-color: #AEFEFF;
+  transform: scale(0.7);
+  border-radius: 8px;
+  box-shadow: 5px 10px 15px 5px rgba(0, 0, 0, 0.123);
+
+}
+
+.section-3-info{
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:#073b3a;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section-3-photo{
+  height: 100%;
+  width: 100%;
+  /* background-image:url('../img/writing.png') ; */
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  background-size: 100% 100%;
+  border-radius: 8px;
+  transition: 1s; 
+}
+.section-3-card:hover .section-3-photo{
+  transform: scale(0.5,0.35) translateY(-650px);
+  border-radius: 50%;
+  background-size: 100% 150%;
+  background-position: 0 -25px;
+  
+}
+
+.section-3-text{
+  font-size: 20px;
+}
+
+.section-3-span{
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.section-3-row{
+  padding-left: 53px;
 }

@@ -582,9 +582,11 @@ body{
 }
 
 #section-2-header{
-  color:white;
+  color: #073b3a;
   padding-top: 50px;
   font-weight: 700;
+  font-size: 30px;
+  text-align: center;
 }
 
 #topic-1{
@@ -622,3 +624,9 @@ body{
   top:0;
 }
 
+.section2-container{
+  background-color: white;
+  border-radius: 25px;
+  position: relative;
+  top:-5vh;
+}

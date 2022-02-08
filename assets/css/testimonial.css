@@ -96,4 +96,8 @@
     .owl-theme .owl-controls {
       margin-top: 25px;
     }
+
+    .section-2{
+        flex-direction: row-reverse;
+    }
   }

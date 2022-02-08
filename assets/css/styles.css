@@ -552,6 +552,7 @@ body{
 .slider-img{
   width:auto;
   height:1%;
+  
 }
 
 .custom{
@@ -585,7 +586,8 @@ body{
 
 #section-2-header{
   color: #073b3a;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -593,7 +595,7 @@ body{
 }
 #section-part2-header{
   color: #073b3a;
-  padding-top: 10px;
+  padding-top: 30px;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -793,6 +795,50 @@ body{
   background-color:#AEFEFF;
 }
 
+
+@media only screen and (max-width:688px){
+  body{
+      width: 100%;
+  }
+  html,body{
+  overflow-x: hidden;
+}
+
+.slider-img{
+  width:auto;
+  height:1%;
+  padding-bottom: 100px;
+}
+
+.section-1-left{
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 40px;
+  text-align: center;
+  padding-left: 5px;
+}
+.section-12-left{
+  padding-left: 5px;
+}
+#homepage-search-input{
+  width: 70%;
+}
+
+.slider-img {
+  width: 90%;
+}
+
+#homepage-left-banner {
+  height: 45vh;
+}
+.section-2-row{
+  padding-left: 50px;
+}
+
+.section-3-row{
+  padding-left: 8px;
+}
+}
 
 
 

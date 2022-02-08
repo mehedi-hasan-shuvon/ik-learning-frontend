@@ -1,0 +1,99 @@
+
+.testimonial {
+    margin: 0 15px;
+    overflow: hidden;
+  }
+  .demo {
+    padding: 100px 0;
+  }
+  .heading-title {
+    margin-bottom: 100px;
+    color: #fff;
+  }
+  .testimonial .description {
+    position: relative;
+    font-size: 13px;
+    line-height: 26px;
+    color: #FDCEB9;
+    padding: 30px 20px;
+    border: 1px solid #767070;
+    border-left: 4px solid#D885A3;
+    background-color: #655D8A;
+    border-radius: 10px;
+    box-shadow:  1px 1px 5px 3px rgba(0, 0, 0, 0.123);
+    font-family: 'Rowdies', cursive;
+  }
+  .testimonial .description:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #bddbdb;
+    
+    border-bottom: 1px solid #767070;
+    border-left: 1px solid #767070;
+    position: absolute;
+    bottom: -11px;
+    left: 65px;
+    transform: skewY(-45deg);
+    
+  }
+  .testimonial .pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px 30px 10px;
+    display: inline-block;
+    border: 3px solid #FDCEB9;;
+  }
+  .testimonial .pic img {
+
+    width: 100%;
+    height: auto;
+  }
+  .testimonial .testimonial-prof {
+    text-transform: capitalize;
+    margin: 0 30px;
+  }
+  .testimonial .testimonial-prof h4 {
+    color: #073b3a;
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+  }
+  .testimonial .testimonial-prof small {
+    display: flex;
+    font-size: 14px;
+    color: rgb(143, 134, 134);
+  }
+  .owl-theme .owl-controls {
+    margin-top: 45px;
+  }
+  .owl-theme .owl-controls .owl-buttons div {
+    border-radius: 5px;
+    background: #7897AB;
+    padding: 15px 20px;
+    opacity: 1;
+    border: 1px solid transparent;
+    transition: all 0.3s linear 0s;
+  }
+  .owl-theme .owl-controls .owl-buttons div:hover {
+    background: transparent;
+    border: 1px solid #073b3a;;
+  }
+  
+  .owl-prev:before,
+  .owl-next:before {
+    content: "\f053";
+    font-family: "FontAwesome";
+    color: #fff;
+  }
+  .owl-next:before {
+    content: "\f054";
+  }
+  @media only screen and (max-width: 480px) {
+    .owl-theme .owl-controls {
+      margin-top: 25px;
+    }
+  }

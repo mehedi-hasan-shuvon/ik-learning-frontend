@@ -10,7 +10,7 @@ body{
 
 
 #index-navbar-brand {
-  background: url("../../assets/img/logo.jpg") center / contain no-repeat;
+  background: url("../../assets/img/logo-removebg.png") center / contain no-repeat;
   width: 182px;
   height: 42px;
   margin-left: 34px;
@@ -204,8 +204,9 @@ body{
 }
 
 #navbar-ik-learning {
-  
-  background: #FFFFFF;
+ 
+  background-color: #4FBDBA;
+ 
   height: 10vh;
   
 }
@@ -494,6 +495,9 @@ body{
 
 
 /* added by MHS */
+
+
+
 
 .button-width{
   width: 100%;

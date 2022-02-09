@@ -39,13 +39,15 @@ body{
 }
 
 .navbar-auth-button {
-  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  /* background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359); */
+  background-color: #072227d5 !important;
   text-align: center;
   font-size: 14px;
   color: #FFFFFF;
-  border: none;
-  border-radius: 4px;
+  border: 1px solid #7897AB !important;
+  border-radius: 10px !important;
   width: 100px;
+  margin-right: 10px !important;
 }
 
 #signup-button {
@@ -80,11 +82,12 @@ body{
 }
 
 #homepage-search-button {
-  background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  /* background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359); */
+  background-color: #072227d5 !important;
   text-align: center;
   font-size: 14px;
   color: #FFFFFF;
-  border: none;
+  border: 1px solid black;
   border-radius: 0px 7px 7px 0px;
   height: 35px;
 }
@@ -453,6 +456,7 @@ body{
 
 .cart-item-count-badge {
   background-image: linear-gradient(to right, #2DAB63, #2A9C5B, #2A915A, #269359);
+  
   color: #FFFFFF;
   font-weight: bold;
   margin-left: 5px;

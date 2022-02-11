@@ -1,0 +1,47 @@
+
+.btn-class1{
+    color:  white !important;
+    background-color: #073b3a !important;
+}
+.side-bar{
+   background-color: #4FBDBA !important;
+}
+
+.bbclose{
+
+   background-color: white !important;
+}
+
+.offcanvase-header{
+    background-color: #4FBDBA;
+}
+.checked {
+    color: orange;
+  }
+
+.rating-span{
+    width: 21px;
+    font-size: 21px;
+}
+
+.section-1{
+    background-color: 
+    #CDDEFF;
+}
+
+.section-0{
+    background-color: #CDDEFF;
+}
+
+.search-button{
+    background-color: #072227d5 !important;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    border: 1px solid #7897AB !important;
+    border-radius: 10px !important;
+    width: 140px;
+    height: 60px;
+    box-shadow: 1px 1px 10px 50px solid #000 ;
+    padding: 0px;
+}

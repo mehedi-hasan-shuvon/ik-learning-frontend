@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Side Bar Navigation</title>
+    <!-- bootstrap 5 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="assets/css/institutions.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand d-flex flex-column align-item-start" id="sidebar">
+        <div class="offcanvas-body side-bar">
+            <div class="search-section pt-3 pb-3">
+                <h2 class="h4-class">Search Institutions</h2>
+                <div class="input-group pt-2">
+
+                    <input class="form-control" aria-label="With textarea" placeholder="Search Institutions"></input>
+                    <Button class="input-group-text btn btn-class1">Search</button>
+                </div>
+
+            </div>
+
+            <h2>Categories</h2>
+            <div class="pt-2">
+                <div class="form-check pb-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Institutions for animation
+                    </label>
+                </div>
+                <div class="form-check pb-2 ">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Institutions for animation
+                    </label>
+                </div>
+                <div class="form-check pb-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Institutions for Programming
+                    </label>
+                </div>
+                <div class="form-check pb-2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Institutions for Content Writing
+                    </label>
+                </div>
+            </div>
+
+            <div class="pt-2">
+                <h2>Search by rating</h2>
+                <div class="rating-div">
+                    <span class="rating-span pe-2">Rating: </span>
+                    <span class="fa fa-star checked rating-span"></span>
+                    <span class="fa fa-star checked rating-span"></span>
+                    <span class="fa fa-star checked rating-span"></span>
+                    <span class="fa fa-star rating-span"></span>
+                    <span class="fa fa-star rating-span"></span>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+    <section class="p-4 my-container">
+        <button class="btn my-4" id="menu-btn">Toggle Sidebar</button>
+        <section class="section-1">
+            <div class="container pb-5">
+                <div class="me-5">
+                    <h1 id="section-part2-header">IK Academy Institutions</h1>
+                    <div class="text-center">
+                        <button class="btn btn-primary search-button" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Search
+                            and
+                            Categories
+                        </button>
+                    </div>
+                </div>
+
+                <div class="row section-2-row pt-5">
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                        <div class="section-2-box">
+                            <div class="section-2-box-img">
+                                <img src="assets/img/udemy.png" alt="">
+                            </div>
+                            <div class="section-2-box-content">
+                                <div class="img-fluid w-100 ">
+                                    <img class="setion-2-2-image" src="assets/img/udemy.png" alt="">
+                                </div>
+
+                                <h3>Udemy is the best</h3>
+                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+                                <!-- <p class="section-2-part2-text">rating:4.5/5</p> -->
+                                <div class="row">
+                                    <div class="col"><i class="fas fa-star review-star"></i><i
+                                            class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                        <div class="section-2-box">
+                            <div class="section-2-box-img">
+                                <img src="assets/img/bohu.png" alt="">
+                            </div>
+                            <div class="section-2-box-content">
+                                <div class="img-fluid w-100 ">
+                                    <img class="setion-2-2-image" src="assets/img/bohu.png" alt="">
+                                </div>
+                                <h3>Udemy is the best</h3>
+                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+                                <!-- <p>rating:4.5/5</p> -->
+                                <div class="row">
+                                    <div class="col"><i class="fas fa-star review-star"></i><i
+                                            class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                        <div class="section-2-box">
+                            <div class="section-2-box-img">
+                                <img src="assets/img/shikho.jpg" alt="">
+                            </div>
+                            <div class="section-2-box-content">
+                                <div class="img-fluid w-100 ">
+                                    <img class="setion-2-2-image" src="assets/img/shikho.jpg" alt="">
+                                </div>
+                                <h3>Udemy is the best</h3>
+                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+
+                                <!-- <p>rating:4.5/5</p> -->
+                                <div class="row">
+                                    <div class="col"><i class="fas fa-star review-star"></i><i
+                                            class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                        <div class="section-2-box">
+                            <div class="section-2-box-img">
+                                <img src="assets/img/udemy.png" alt="">
+                            </div>
+                            <div class="section-2-box-content">
+                                <div class="img-fluid w-100 ">
+                                    <img class="setion-2-2-image" src="assets/img/udemy.png" alt="">
+                                </div>
+
+                                <h3>Udemy is the best</h3>
+                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+                                <!-- <p class="section-2-part2-text">rating:4.5/5</p> -->
+                                <div class="row">
+                                    <div class="col"><i class="fas fa-star review-star"></i><i
+                                            class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                        <div class="section-2-box">
+                            <div class="section-2-box-img">
+                                <img src="assets/img/shikho.jpg" alt="">
+                            </div>
+                            <div class="section-2-box-content">
+                                <div class="img-fluid w-100 ">
+                                    <img class="setion-2-2-image" src="assets/img/shikho.jpg" alt="">
+                                </div>
+                                <h3>Udemy is the best</h3>
+                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+
+                                <!-- <p>rating:4.5/5</p> -->
+                                <div class="row">
+                                    <div class="col"><i class="fas fa-star review-star"></i><i
+                                            class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 mb-5">
+                        <div class="section-2-box">
+                            <div class="section-2-box-img">
+                                <img src="assets/img/bohu.png" alt="">
+                            </div>
+                            <div class="section-2-box-content">
+                                <div class="img-fluid w-100 ">
+                                    <img class="setion-2-2-image" src="assets/img/bohu.png" alt="">
+                                </div>
+                                <h3>Udemy is the best</h3>
+                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+                                <!-- <p>rating:4.5/5</p> -->
+                                <div class="row">
+                                    <div class="col"><i class="fas fa-star review-star"></i><i
+                                            class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+                </div>
+        </section>
+    </section>
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script>
+        var menu_btn = document.querySelector("#menu-btn")
+        var sidebar = document.querySelector("#sidebar")
+        var container = document.querySelector(".my-container")
+        menu_btn.addEventListener("click", () => {
+            sidebar.classList.toggle("active-nav")
+            container.classList.toggle("active-cont")
+        })
+    </script>
+</body>
+
+</html>

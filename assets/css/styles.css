@@ -10,7 +10,7 @@ body{
 
 
 #index-navbar-brand {
-  background: url("../../assets/img/logo-removebg.png") center / contain no-repeat;
+  background: url("../../assets/img/ik-accademy-png-white.png") center / contain no-repeat;
   width: 182px;
   height: 42px;
   margin-left: 34px;
@@ -508,7 +508,7 @@ body{
 }
 
 .modal-color{
- color:#2A9C5B
+ color:#2A9C5B;
 }
 
 .instructor-image{

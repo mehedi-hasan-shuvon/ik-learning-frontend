@@ -71,4 +71,13 @@ body {
         display: flex;
         flex-direction: row;
     }
+
+    .section-absoutlate{
+        position: relative !important;
+    }
+
+    .navvvv{
+        display: flex !important;
+        flex-direction: row !important;
+    }
 }

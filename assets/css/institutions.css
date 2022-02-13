@@ -50,5 +50,8 @@
 }
 
 #special-button{
-    left: 100%;
+    border-radius: 50% !important;
+    height: 50px;
+    left: 93%;
+    background-color: #072227 !important;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Institutions</title>
+    <title>Courses</title>
 
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Rowdies:wght@300;400&family=Signika:wght@700&display=swap"
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/institutions.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
     <link rel="shortcut icon" href="assets/img/ik.png" type="image/x-icon">
     <!-- Adding css bootstap -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -84,7 +85,7 @@
             <div class="offcanvas show offcanvas-start" data-bs-scroll="true" tabindex="-1"
                 id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                 <div class="offcanvas-header offcanvase-header">
-                    <h3 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> IK Academy Institutions</h3>
+                    <h3 class="offcanvas-title" id="offcanvasWithBothOptionsLabel"> IK Academy Courses</h3>
 
 
                     <button type="button" class="btn-close text-reset side-bar bbclose" data-bs-dismiss="offcanvas"
@@ -92,11 +93,10 @@
                 </div>
                 <div class="offcanvas-body side-bar">
                     <div class="search-section pt-3 pb-3">
-                        <h2 class="h4-class">Search Institutions</h2>
+                        <h2 class="h4-class">Search Courses</h2>
                         <div class="input-group pt-2">
 
-                            <input class="form-control" aria-label="With textarea"
-                                placeholder="Search Institutions"></input>
+                            <input class="form-control" aria-label="With textarea" placeholder="Search Courses"></input>
                             <Button class="input-group-text btn btn-class1">Search</button>
                         </div>
 
@@ -107,25 +107,25 @@
                         <div class="form-check pb-2">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                                Institutions for animation
+                                Courses for animation
                             </label>
                         </div>
                         <div class="form-check pb-2 ">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                                Institutions for animation
+                                Courses for animation
                             </label>
                         </div>
                         <div class="form-check pb-2">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                                Institutions for Programming
+                                Courses for Programming
                             </label>
                         </div>
                         <div class="form-check pb-2">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                             <label class="form-check-label" for="flexCheckDefault">
-                                Institutions for Content Writing
+                                Courses for Content Writing
                             </label>
                         </div>
                     </div>
@@ -142,6 +142,14 @@
                         </div>
                     </div>
 
+                    <div class="slider-container pt-3">
+                        <h2>Search by Price Range</h2>
+                        <div width="80%">
+                            <input type="range" class="slider" wire:model="price" max="3500" min="1500">
+                        </div>
+                        <h5 class="ps-2">price: 1500</h5>
+                    </div>
+
                     <button id="special-button" class="btn btn-primary search-button" type="button"
                         data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
                         aria-controls="offcanvasWithBothOptions">
@@ -153,202 +161,197 @@
 
 
         <!-- section 1  -->
-        <section class="section-1">
-            <div class="container pb-5">
-                <div class="me-5">
-                    <h1 id="section-part2-header">IK Academy Institutions</h1>
-                    <div class="text-center">
-                        <button class="btn btn-primary search-button" type="button" data-bs-toggle="offcanvas"
-                            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-                            <!-- <span><i class="fa fa-duotone fa-magnifying-glass"></i></span> -->
-                            <span><i class="fa fa-brands fa-searchengin"></i></span>
-                            <span><i class="fa fa-duotone fa-bars"></i></span>
-                        </button>
 
-                    </div>
+
+
+        <section class="section-3 pt-0 mt-0">
+            <div class="container section-3-container">
+                <h1 id="section-part2-header">Our Courses</h1>
+
+                <div class="text-center">
+                    <button class="btn btn-primary search-button" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                        <!-- <span><i class="fa fa-duotone fa-magnifying-glass"></i></span> -->
+                        <span><i class="fa fa-brands fa-searchengin"></i></span>
+                        <span><i class="fa fa-duotone fa-bars"></i></span>
+                    </button>
+
                 </div>
-
-                <div class="row section-2-row pt-5">
-                    <div class="col-lg-4 col-md-6 col-12 mb-5">
-                        <div class="section-2-box">
-                            <div class="section-2-box-img">
-                                <img src="assets/img/udemy.png" alt="">
-                            </div>
-                            <div class="section-2-box-content">
-                                <div class="img-fluid w-100 ">
-                                    <img class="setion-2-2-image" src="assets/img/udemy.png" alt="">
-                                </div>
-
-                                <h3>Udemy is the best</h3>
-                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <div class="row section-3-row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="section-3-card">
+                            <div class="section-3-info d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">Content Writing Course</h3>
+                                <p class="section-3-text line-clamp">
+                                    <span class="section-3-span">Details:</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Qui
                                     sapiente consectetur cum
-                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
-                                <!-- <p class="section-2-part2-text">rating:4.5/5</p> -->
-                                <div class="row">
-                                    <div class="col"><i class="fas fa-star review-star"></i><i
-                                            class="fas fa-star review-star"></i><i
-                                            class="far fa-star-half review-star"></i><i
-                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
-                                    </div>
-                                </div>
-                                <p>(5/5) 102 Reviews</p>
-                                <a href="https://web.programming-hero.com/" target="_blank"
-                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-12 mb-5">
-                        <div class="section-2-box">
-                            <div class="section-2-box-img">
-                                <img src="assets/img/bohu.png" alt="">
-                            </div>
-                            <div class="section-2-box-content">
-                                <div class="img-fluid w-100 ">
-                                    <img class="setion-2-2-image" src="assets/img/bohu.png" alt="">
-                                </div>
-                                <h3>Udemy is the best</h3>
-                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Qui
-                                    sapiente consectetur cum
-                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!
+                                </p>
+                                <h4 class="fw-bold">Instructor name: <span class="text-muted">Mehedi Hasan
+                                        Shuvon</span>
+                                </h4>
                                 <!-- <p>rating:4.5/5</p> -->
                                 <div class="row">
-                                    <div class="col"><i class="fas fa-star review-star"></i><i
-                                            class="fas fa-star review-star"></i><i
+
+                                    <div class="col">
+                                        <span class="section-3-span">Rating:</span>
+                                        <i class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i><i
                                             class="far fa-star-half review-star"></i><i
                                             class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
                                     </div>
                                 </div>
                                 <p>(5/5) 102 Reviews</p>
+
                                 <a href="https://web.programming-hero.com/" target="_blank"
                                     class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
                             </div>
-                        </div>
 
+                            <img class="section-3-photo" src="assets/img/writing.png" alt="">
+
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12 mb-5">
-                        <div class="section-2-box">
-                            <div class="section-2-box-img">
-                                <img src="assets/img/shikho.jpg" alt="">
-                            </div>
-                            <div class="section-2-box-content">
-                                <div class="img-fluid w-100 ">
-                                    <img class="setion-2-2-image" src="assets/img/shikho.jpg" alt="">
-                                </div>
-                                <h3>Udemy is the best</h3>
-                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="section-3-card">
+                            <div class="section-3-info d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">Content Writing Course</h3>
+                                <p class="section-3-text line-clamp">
+                                    <span class="section-3-span">Details:</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Qui
                                     sapiente consectetur cum
-                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
-
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!
+                                </p>
+                                <h4 class="fw-bold">Instructor name: <span class="text-muted">Mehedi Hasan
+                                        Shuvon</span>
+                                </h4>
                                 <!-- <p>rating:4.5/5</p> -->
                                 <div class="row">
-                                    <div class="col"><i class="fas fa-star review-star"></i><i
-                                            class="fas fa-star review-star"></i><i
+
+                                    <div class="col">
+                                        <span class="section-3-span">Rating:</span>
+                                        <i class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i><i
                                             class="far fa-star-half review-star"></i><i
                                             class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
                                     </div>
                                 </div>
                                 <p>(5/5) 102 Reviews</p>
+
                                 <a href="https://web.programming-hero.com/" target="_blank"
                                     class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
                             </div>
-                        </div>
 
+
+                            <img class="section-3-photo" src="assets/img/excel.png" alt="">
+
+
+                        </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mb-5">
-                        <div class="section-2-box">
-                            <div class="section-2-box-img">
-                                <img src="assets/img/udemy.png" alt="">
-                            </div>
-                            <div class="section-2-box-content">
-                                <div class="img-fluid w-100 ">
-                                    <img class="setion-2-2-image" src="assets/img/udemy.png" alt="">
-                                </div>
-
-                                <h3>Udemy is the best</h3>
-                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="section-3-card">
+                            <div class="section-3-info d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">Content Writing Course</h3>
+                                <p class="section-3-text line-clamp">
+                                    <span class="section-3-span">Details:</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Qui
                                     sapiente consectetur cum
-                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
-                                <!-- <p class="section-2-part2-text">rating:4.5/5</p> -->
-                                <div class="row">
-                                    <div class="col"><i class="fas fa-star review-star"></i><i
-                                            class="fas fa-star review-star"></i><i
-                                            class="far fa-star-half review-star"></i><i
-                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
-                                    </div>
-                                </div>
-                                <p>(5/5) 102 Reviews</p>
-                                <a href="https://web.programming-hero.com/" target="_blank"
-                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="col-lg-4 col-md-6 col-12 mb-5">
-                        <div class="section-2-box">
-                            <div class="section-2-box-img">
-                                <img src="assets/img/shikho.jpg" alt="">
-                            </div>
-                            <div class="section-2-box-content">
-                                <div class="img-fluid w-100 ">
-                                    <img class="setion-2-2-image" src="assets/img/shikho.jpg" alt="">
-                                </div>
-                                <h3>Udemy is the best</h3>
-                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Qui
-                                    sapiente consectetur cum
-                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
-
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!
+                                </p>
+                                <h4 class="fw-bold">Instructor name: <span class="text-muted">Mehedi Hasan
+                                        Shuvon</span>
+                                </h4>
                                 <!-- <p>rating:4.5/5</p> -->
                                 <div class="row">
-                                    <div class="col"><i class="fas fa-star review-star"></i><i
-                                            class="fas fa-star review-star"></i><i
+
+                                    <div class="col">
+                                        <span class="section-3-span">Rating:</span>
+                                        <i class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i><i
                                             class="far fa-star-half review-star"></i><i
                                             class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
                                     </div>
                                 </div>
                                 <p>(5/5) 102 Reviews</p>
+
                                 <a href="https://web.programming-hero.com/" target="_blank"
                                     class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
                             </div>
-                        </div>
 
+                            <img class="section-3-photo" src="assets/img/lara.png" alt="">
+
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-12 mb-5">
-                        <div class="section-2-box">
-                            <div class="section-2-box-img">
-                                <img src="assets/img/bohu.png" alt="">
-                            </div>
-                            <div class="section-2-box-content">
-                                <div class="img-fluid w-100 ">
-                                    <img class="setion-2-2-image" src="assets/img/bohu.png" alt="">
-                                </div>
-                                <h3>Udemy is the best</h3>
-                                <p class="section-2-part2-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="section-3-card">
+                            <div class="section-3-info d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">Content Writing Course</h3>
+                                <p class="section-3-text line-clamp">
+                                    <span class="section-3-span">Details:</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Qui
                                     sapiente consectetur cum
-                                    corporis sit accusantium nobis doloremque quos minima fugiat!</p>
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!
+                                </p>
+                                <h4 class="fw-bold">Instructor name: <span class="text-muted">Mehedi Hasan
+                                        Shuvon</span>
+                                </h4>
                                 <!-- <p>rating:4.5/5</p> -->
                                 <div class="row">
-                                    <div class="col"><i class="fas fa-star review-star"></i><i
-                                            class="fas fa-star review-star"></i><i
+
+                                    <div class="col">
+                                        <span class="section-3-span">Rating:</span>
+                                        <i class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i><i
                                             class="far fa-star-half review-star"></i><i
                                             class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
                                     </div>
                                 </div>
                                 <p>(5/5) 102 Reviews</p>
+
                                 <a href="https://web.programming-hero.com/" target="_blank"
                                     class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
                             </div>
-                        </div>
 
+                            <img class="section-3-photo" src="assets/img/lara.png" alt="">
+
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="section-3-card">
+                            <div class="section-3-info d-flex flex-column justify-content-center align-items-center">
+                                <h3 class="fw-bold">Content Writing Course</h3>
+                                <p class="section-3-text line-clamp">
+                                    <span class="section-3-span">Details:</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Qui
+                                    sapiente consectetur cum
+                                    corporis sit accusantium nobis doloremque quos minima fugiat!
+                                </p>
+                                <h4 class="fw-bold">Instructor name: <span class="text-muted">Mehedi Hasan
+                                        Shuvon</span>
+                                </h4>
+                                <!-- <p>rating:4.5/5</p> -->
+                                <div class="row">
+
+                                    <div class="col">
+                                        <span class="section-3-span">Rating:</span>
+                                        <i class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i><i
+                                            class="far fa-star-half review-star"></i><i
+                                            class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                                    </div>
+                                </div>
+                                <p>(5/5) 102 Reviews</p>
+
+                                <a href="https://web.programming-hero.com/" target="_blank"
+                                    class="btn rounded py-2 max-width fw-bold btn-clr">View Details</a>
+                            </div>
+
+                            <img class="section-3-photo" src="assets/img/python.png" alt="">
+                        </div>
                     </div>
 
 
@@ -356,7 +359,16 @@
 
 
                 </div>
+
+
+                <div class="common-button-div text-center">
+                    <button class="btn btn-primary shadow-lg mb-5 common-button">View All</button>
+                </div>
+
+
+            </div>
         </section>
+
     </main>
 
 

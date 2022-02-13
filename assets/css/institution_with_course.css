@@ -1,0 +1,37 @@
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Signika', sans-serif !important;
+    overflow-x: hidden;
+    background-color: #CDDEFF !important;
+  }
+
+.green-text{
+    color: #073b3a !important;
+}
+
+
+
+.card{
+ background: #CAF0F8 !important;
+}
+
+.view-detalis-button{
+   
+    background: #073b3a !important;
+}
+
+.modal-header{
+    background-color: #90E0EF!important;
+}
+.modal-body{
+    background-color:#CAF0F8 !important ;
+}
+.modal-footer{
+    background-color:#CAF0F8  !important ;
+}
+
+.button-color{
+    background-color: #073b3a  !important;
+   
+    
+}

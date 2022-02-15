@@ -818,6 +818,11 @@ body{
   
 }
 
+#modal-1{
+  right: -76%;
+  top:30px;
+}
+
 
 
 @media only screen and (max-width:688px){
@@ -861,6 +866,12 @@ body{
 
 .section-3-row{
   padding-left: 5%;
+}
+
+
+#modal-1{
+  right: 0px;
+  top:0px;
 }
 }
 

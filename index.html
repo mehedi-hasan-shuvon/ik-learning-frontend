@@ -72,6 +72,7 @@
                                 Up</button></li>
                         <li class="nav-item"><button class="btn btn-primary navbar-auth-button "
                                 type="button">Login</button></li>
+
                     </ul>
                 </div>
             </div>
@@ -632,32 +633,57 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
+
+
+                        <input type="text" class="front-page-text-input text-muted login-input"
+                            placeholder="Type email or username">
+                        <input type="text" class="front-page-text-input text-muted login-input" placeholder="Password">
+                        <br>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span>keep me logged in</span>
+                        <div class="col p-0"><button class="btn btn-primary send-msg mt-3" id="login-button"
+                                type="button">Login</button></div>
+                        <hr>
+                        <p class="text-center">or</p>
                         <div class="row">
-                            <div class="col-4">
-                                <img class="img-fluid w-100" src="assets/img/bkash.png" alt="">
-                            </div>
-                            <div class="col-8">
-                                <!-- <div>
-                                <img class="instructor-image" src="assets/img/player-1.png" alt="">
-                            </div> -->
-                                <p><span class="text-muted">Instructor name:</span> Abul Mia</p>
-                                <p><span class="text-muted">Course Details: </span> Lorem ipsum dolor sit amet
-                                    consectetur
-                                    adipisicing elit. Ullam natus
-                                    aspernatur neque quas quod sed quis libero qui fuga eos?</p>
-                                <p><span class="text-muted">Course Duration:</span> 200+ hours</p>
-                                <p><span class="text-muted">ratings:</span> </p>
-                                <div class="col-auto"><i class="fas fa-star review-star"></i><i
-                                        class="fas fa-star review-star"></i><i class="far fa-star review-star"></i><i
-                                        class="fas fa-star review-star"></i><i class="fas fa-star review-star"></i>
+                            <div class="col-md-6 p-0 text-center"><button class="btn btn-primary send-msg "
+                                    id="login-button" type="button">
+                                    <i class="fa fa-brands fa-google"></i> <span class="ps-2">Login with Google</span>
+                                </button></div>
+                            <div class="col-md-6 p-0 text-center"><button class="btn btn-primary send-msg "
+                                    id="login-button" type="button">
+                                    <i class="fa fa-brands fa-facebook"></i> <span class="ps-2">Login with
+                                        Facebook</span>
+                                </button></div>
+                        </div>
+
+                        <hr>
+                        <div class="text-center">
+                            <input type="checkbox" id="terms" name="temrs" value="terms">
+
+                            <span>I accept the terms and policies <span class="fw-bold text-primary">Terms &
+                                    Conditions</span></span>
+
+                        </div>
+
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="text-center">
+                                    <p>Not a Member? <span class="fw-bold text-primary">Signup now</span></p>
                                 </div>
                             </div>
+                            <div class="col-lg-6">
+                                <div class="text-center">
+                                    <p><span class="fw-bold text-primary">Reset Password?</span></p>
+                                </div>
+                            </div>
+
                         </div>
+
+
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary button-color">Add to Cart</button>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -744,7 +770,7 @@
         <!--Owl Slider-->
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/functions.js"></script>
-
+        <script src="https://kit.fontawesome.com/8df60ef516.js" crossorigin="anonymous"></script>
 
 
 </body>

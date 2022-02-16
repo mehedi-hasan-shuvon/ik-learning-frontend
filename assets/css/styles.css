@@ -819,10 +819,27 @@ body{
 }
 
 #modal-1{
-  right: -76%;
-  top:30px;
+  /* right: -76%;
+  top:30px; */
 }
 
+.login-input{
+  border: 2px solid green;
+  width: 90%;
+}
+
+.modal-header{
+  background-color: #90E0EF;
+}
+.modal-body{
+  background-color:#CAF0F8 ;
+}
+.modal-footer{
+  background-color:#CAF0F8  ;
+}
+#login-button{
+  background: #073b3a !important;
+}
 
 
 @media only screen and (max-width:688px){

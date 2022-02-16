@@ -68,10 +68,11 @@
                     </ul>
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><button class="btn btn-primary navbar-auth-button " id="signup-button"
-                                type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign
+                                type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</button>
+                        </li>
+                        <li class="nav-item"><button class="btn btn-primary navbar-auth-button " type="button"
+                                data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Sign
                                 Up</button></li>
-                        <li class="nav-item"><button class="btn btn-primary navbar-auth-button "
-                                type="button">Login</button></li>
 
                     </ul>
                 </div>
@@ -687,8 +688,101 @@
                 </div>
             </div>
         </div>
-        <!-- modal code ends here  -->
 
+        <!-- modal code ends here  -->
+        <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" id="modal-1">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold modal-color" id="staticBackdropLabel">Sign up</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <h2>Join For a Good start</h2>
+                            <p>Please give a strong password.Must include Special characters and punctuation symbols
+                                (Example: _, -. +, =,!, @, %, *, &, ”, :, ., or /)) and select on which Field you want
+                                to work for.</p>
+                        </div>
+                        <hr>
+                        <div class="row align-items-center">
+                            <div class="col-md-2 align-items-center">
+                                <select name="gender" id="gender-selection">
+                                    <option value="mr"> Mr</option>
+                                    <option value="miss"> Miss</option>
+                                    <option value="mrs"> Mrs</option>
+                                </select>
+                            </div>
+                            <div class="col-md-5">
+                                <input type="text" class="front-page-text-input text-muted login-input"
+                                    placeholder="First Name">
+                            </div>
+                            <div class="col-md-5">
+                                <input type="text" class="front-page-text-input text-muted login-input"
+                                    placeholder="Last Name">
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-5 pe-0">
+
+                                <input type="text" class="front-page-text-input text-muted login-input"
+                                    placeholder="Phone Number">
+
+                            </div>
+                            <div class="col-md-7 ps-0">
+                                <input type="text" class="front-page-text-input text-muted login-input" id="email-input"
+                                    placeholder="User Name">
+                            </div>
+                        </div>
+
+
+                        <input type="text" class="front-page-text-input text-muted signup-input"
+                            placeholder="Email Address">
+                        <input type="text" class="front-page-text-input text-muted signup-input" placeholder="Password">
+                        <br>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <span>keep me logged in</span>
+                        <div class="col p-0"><button class="btn btn-primary send-msg mt-3" id="login-button"
+                                type="button">Strats Now</button></div>
+                        <hr>
+                        <p class="text-center">or</p>
+                        <p class="text-center">Join Now With
+                            Use a social account for faster login or easy registration to directly get in to your
+                            account</p>
+                        <div class="row">
+                            <div class="col-md-6 p-0 text-center"><button class="btn btn-primary send-msg "
+                                    id="login-button" type="button">
+                                    <i class="fa fa-brands fa-google"></i> <span class="ps-2">Signup with Google</span>
+                                </button></div>
+                            <div class="col-md-6 p-0 text-center"><button class="btn btn-primary send-msg "
+                                    id="login-button" type="button">
+                                    <i class="fa fa-brands fa-facebook"></i> <span class="ps-2">Signup with
+                                        Facebook</span>
+                                </button></div>
+                        </div>
+
+                        <hr>
+                        <div class="text-center">
+                            <input type="checkbox" id="terms" name="temrs" value="terms">
+
+                            <span>I accept the terms and policies <span class="fw-bold text-primary">Terms &
+                                    Conditions</span></span>
+
+                        </div>
+
+                        <hr>
+                        <div class="text-center">
+                            <p>All ready Have an Account? <span class="fw-bold text-primary">Sign in</span></p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <!-- modal code ends here  -->
 

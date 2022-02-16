@@ -828,6 +828,11 @@ body{
   width: 90%;
 }
 
+.signup-input{
+  width: 96%;
+  border: 2px solid green;
+}
+
 .modal-header{
   background-color: #90E0EF;
 }
@@ -841,6 +846,16 @@ body{
   background: #073b3a !important;
 }
 
+#gender-selection{
+  border: 2px solid green;
+  
+    height: 2rem;
+    border-radius: 3px;
+}
+
+#email-input{
+  width: 94%;
+}
 
 @media only screen and (max-width:688px){
   body{

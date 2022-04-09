@@ -7,6 +7,9 @@ body {
     overflow-x: hidden;
 }
 
+.nav-explore-mobile{
+    display: none;
+}
 .vertical-nav {
     min-width: 17rem;
     width: 17rem;
@@ -144,14 +147,22 @@ body {
         width: 100%;
     }
 
-    .explore-mobile {
-        padding-left: 230px !important
+    .explore-mobile.active {
+        /* padding-left: 230px !important */
+
+
+    }
+
+    .nav-explore-mobile.active {
+        /* display: block !important; */
+        display: block;
     }
 
     #sidebar.active {
         position: absolute;
         z-index: 1;
-        min-height: 240%;
+        width: 100vw;
+        height: 90%;
     }
 }
 

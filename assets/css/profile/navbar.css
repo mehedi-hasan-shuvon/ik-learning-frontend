@@ -19,6 +19,21 @@ body {
 }
 
 .page-content {
+    background-color: rgb(201 200 198);
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+.testing-class {
+    transition: all 0.4s;
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+
+.footer-navbar {
+    transition: all 0.4s;
     width: calc(100% - 17rem);
     margin-left: 17rem;
     transition: all 0.4s;
@@ -29,6 +44,16 @@ body {
 }
 
 #content.active {
+    width: 100%;
+    margin: 0;
+}
+
+#footer-navbar.active {
+    width: 100%;
+    margin: 0;
+}
+
+#testing-class.active {
     width: 100%;
     margin: 0;
 }
@@ -101,4 +126,31 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header-nav {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.li-class {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #21af79;
+}
+
+.li-class:hover {
+    color: goldenrod;
+}
+
+
+.button-color {
+    background-color: #21af79;
+}
+
+.text-green1 {
+    color: #21af79;
 }

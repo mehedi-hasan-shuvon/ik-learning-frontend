@@ -17,4 +17,16 @@ const demo = () => {
     testingClass.classList.toggle('active');
     footerNavbar.classList.toggle('active');
     explore.classList.toggle('active');
-}
+};
+
+
+const myProfile = () => {
+    const profile = document.getElementById('profile-row');
+    profile.style.display = "flex";
+};
+
+const myCourse = () => {
+    const profile = document.getElementById('profile-row');
+    profile.style.display = "none";
+};
+
